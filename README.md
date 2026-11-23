@@ -46,3 +46,41 @@ l'enseignant peut vérifier votre tirage, et toute modification serait visible d
 
 Poussez votre travail régulièrement (au moins à chaque idée terminée).
 Votre historique Git fait partie de votre note.
+
+# Cybercafé d'Elmy - Comment j'ai fait
+**Fichier principal :** `elmy_cybercafe.py`
+**Tirage :** dés 6, 6, 2
+
+## 1. Mon tirage 6, 6, 2
+J'ai tiré les dés, j'ai eu 6, 6, 2.
+- Mon activité : un cybercafé avec des postes
+- Mon évènement : un client qui achète à crédit
+- Ma contrainte : il faut un décorateur dans mon code
+
+## 2. Mon fichier
+J'ai créé mon fichier : `elmy_cybercafe.py`
+
+## 3. La liste de mes clients
+J'ai créé une liste avec 10 clients, avec leur nom et leur argent.
+Exemple : Kévin, Maeva, Papa Jean...
+C'est comme le carnet du cybercafé.
+
+## 4. Mes petites fonctions
+Chaque fonction fait UN seul travail :
+- `choisir_poste()` : le client choisit un poste
+- `gerer_connexion()` : on allume la connexion
+- `vendre_credit()` : quand Papa Jean achète à crédit, on note sa dette
+- `relancer_client()` : quand on le relance, il paie un peu
+
+## 5. Le décorateur
+J'ai fait un décorateur qui écrit dans le journal chaque fois qu'un client arrive.
+C'est ma contrainte.
+
+## 6. 30 jours de test
+Au début, j'ai testé sur 7 jours. Après, j'ai fait tourner sur 30 jours.
+Je n'ai pas réécrit 30 fois la même chose.
+J'ai fait une boucle `for numero_jour in range(1, 31)` et j'ai fait tourner mes 7 situations avec `% 7`.
+Chaque jour, on prend 3 clients différents.
+
+## 7. Le bilan final
+À la fin, on compte combien Papa Jean doit encore et combien on a gagné dans le mois.

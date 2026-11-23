@@ -1,0 +1,13 @@
+{
+  "nom": "elmy",
+  "matricule": "loundou",
+  "des": [
+    6,
+    6,
+    2
+  ],
+  "activite": "Cybercafé : postes, pannes et connexion",
+  "evenement": "Client qui achète à crédit et tarde à payer",
+  "contrainte": "Un décorateur journalise chaque action du joueur",
+  "date": "2026-11-19T12:22:53"
+}

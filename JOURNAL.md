@@ -1,7 +1,7 @@
 # Journal de bord – Mon Quartier en 30 jours
 
-Nom : 
-Matricule : 
+Nom : loundou
+prenom: elmy
 
 ## Lundi
 - **Ce que j'ai fait :** ...
@@ -19,3 +19,9 @@ Matricule :
 
 ## Jeudi
 ...
+
+## Mon tirage au dé
+- **Lancers :** 6, 6, 2
+- **Mon activité :** Cybercafé : postes, pannes et connexion
+- **Mon événement imposé :** Client qui achète à crédit et tarde à payer
+- **Ma contrainte technique :** Un décorateur journalise chaque action du joueur
